@@ -11,6 +11,11 @@ import router from './router'
 // 加载全局样式文件
 import './styles/index.less'
 
+// 加载element-ui
+import ElementUI from 'element-ui'
+import 'element-ui/lib/theme-chalk/index.css'
+Vue.use(ElementUI)
+
 Vue.config.productionTip = false
 
 // 创建 Vue 根实例
