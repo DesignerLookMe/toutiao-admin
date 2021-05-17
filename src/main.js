@@ -14,6 +14,12 @@ import './styles/index.less'
 // 加载element-ui
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
+
+// 解决超过js范围内数字不能正确读取的问题
+// import JSONbig from 'json-bigint'
+// JSONbig.parse() // -> JSON.parse
+// JSONbig.stringify() // -> JSON.stringfy
+
 Vue.use(ElementUI)
 
 Vue.config.productionTip = false
